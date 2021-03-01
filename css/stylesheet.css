@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif; /* free alternative to avenir */
+    color: #ffffff;
+    margin: 0;
+}
+
+.section {
+    height: 50%;
+    width: auto;
+    clear: both;
+}
+
+.white-text {
+    color: #3b3b3b;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 15% 0 15%;
+}
+
+.left-picture {
+    width: 40%;
+    margin: 3% 0% 3% 5%;
+    border: 2px solid #9377f7;
+    float: left;
+}
+
+.right-text {
+    width: 40%;
+    margin: 3% 5% 2% 0%;
+    padding: 1%;
+    color: #3b3b3b;
+    float: right;
+    font-size: 2.2vw;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3%;
+    width: 40%;
+    padding: 2%;
+}
+
+.discover {
+    /* background-color:#7751ff; */
+    /*background: linear-gradient(#663df7, #a35dff);*/
+    padding: 25px;
+    margin: 0 25% 0 25%;
+    border-radius: 2%;
+
+}
+
+.lengthen {
+    height: 200px;    
+}
+
+.banner {
+    background-color: #8383794d;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 15% 0 15%;
+}
+
+.s-banner {
+    font-size: 5vw;
+    text-align: center;
+    color: #3b3b3b;
+}
+.s-text {
+    font-size: 3vw;
+    text-align: center;
+    padding: 0 0 0 0;
+    color: #3b3b3b;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 5px solid #3b3b3b;
+    display: block;
+    height: 50px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 2%;
+    float:left;
+}
+
+.contact-us {
+    color: #3b3b3b;
+    float: right;
+    font-size: 2vw;
+    margin: 3%;
+}
