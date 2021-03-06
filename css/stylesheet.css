@@ -173,8 +173,9 @@ body, html {
         font-size: 1rem;
     }
 
-    .left-picture {
+    .flex-child:first-child {
         display: none;
+        margin-right: 20px;
     }
 
     .description {
