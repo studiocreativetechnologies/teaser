@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Studio</title>
+  <link rel="icon" href="../assets/logo.png" type="image/icon type">
   <meta name="description" content="Index Page">
   <meta name="author" content="StudioCreativeTechnologies">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,35 +12,84 @@
 </head>
 <body>
   <div class="container">
-    <header class="header">
+    <div class="one">
       <img src="../assets/logo.png" alt="logo" class="center">
-    </header>
-
-    <div class="discover">
-      <div class="s-banner">
-        Studio
-      </div>
-      <div class="s-text">
-        A Digital Workspace for Musicians
+      <div class="discover">
+        <div class="s-banner">
+          Studio
+        </div>
+        <div class="s-text">
+          A Digital Workspace for Musicians
+        </div>
       </div>
     </div>
-
+  
     <div class="section">
-      <img src="../assets/example1.png" alt="home_page" class="left-picture">
-      <a class="right-text">
-        Studio is a digital workspace designed for you to accept music submissions from up-and-coming producers and fans and host virtual sessions with new producers. You will have the opportunity to offer feedback on submissions, find new producers to collaborate with, bring in additional revenue, and grow your brand. We are creating an environment where you can leverage your expertise as a musician and expand your network in the industry. We look forward to working with you as we grow the platform to create an optimal experience our users.
+      <div class="flex-container">
+        <img src="../assets/example1.png" alt="demo page" class="flex-child left-picture">
+        <div class="flex-child right-text">
+          <!-- <div class="description">
+            <div class="top-p">
+              Studio is a digital workspace designed for up-and-coming artists and industry professionals to connect and
+              collaborate.
+            </div>
+            <div class="bottom-ps">
+              Artists, you have the opportunity to network, receive invaluable feedback, and develop your
+              brand.
+              Producers, discover new talent, create new revenue streams, and build help pioneer a community of new
+              musicians. Through private sessions and industry mentorship, we invite you to join our Studio and transform 
+              your work alongside top professionals.
+            </div>
+          </div> -->
+          <div class="description">
+            <div class="top-p">
+              Studio is a digital workspace designed for industry professionals
+              to connect and collaborate with up-and-coming artists.
+            </div>
+            <div class="bottom-ps">
+              You will have the opportunity to offer feedback to new
+              producers, create new revenue streams, discover the next generation of talent, 
+              and grow your brand. By accepting music submissions and hosting private sessions, 
+              we invite you to join our Studio and transform the way producers work
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <a class="typeform-share button"
+        href="https://form.typeform.com/to/xb7ikxle?typeform-medium=embed-snippet" data-mode="popup"
+        target="_blank">
+        Join waitlist
       </a>
     </div>
-
-    <div class="section">
-      <a class="typeform-share button" href="https://form.typeform.com/to/xb7ikxle?typeform-medium=embed-snippet" data-mode="popup" style="margin-left:40%; margin-right:40%; text-decoration:none;background:linear-gradient(#663df7, #a35dff);color:white;cursor:pointer;font-size:20px;line-height:50px;text-align:center;padding:10px 33px;border-radius:10px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;" data-size="100" target="_blank">Join the waitlist! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </div>
-
-    <footer>
-      <a href="https://www.instagram.com/studio.creative.co/"><img src="../assets/insta.png" alt="home_page" class="icon"></a>
-      <a href="https://www.linkedin.com/company/studio-creative-company/"><img src="../assets/in.png" alt="home_page" class="icon"></a>
-      <a href="https://twitter.com/StudioCreativeC"><img src="../assets/twitter.png" alt="home_page" class="icon"></a>
-      <a class="contact-us">Contact Us</a>
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="https://www.instagram.com/studio.creative.co/">Instagram</a>
+        &#8729;
+        <a href="https://www.linkedin.com/company/studio-creative-company/">LinkedIn</a>
+        &#8729;
+        <a href="https://twitter.com/StudioCreativeC">Twitter</a>
+        &#8729;
+        <a href="mailto:info@studiocreativeco.com">Contact Us</a>
+      </div>
     </footer>
+    <script>
+      (function () {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm_share",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
+    </script>
 </body>
 </html>
