@@ -21,29 +21,20 @@ body, html {
     border-bottom: 1px solid #979797;
 }
 
-.section {
-    width: auto;
-    clear: both;
-}
-
 .flex-container {
     display: flex;
     padding: 8% 5% 0 5%
 }
 
-.flex-child {
-    flex: 1;
-}
-
 .flex-child:first-child {
+    display: flex;
     margin-right: 20px;
 }
 
 
 .left-picture {
     width: 40%;
-    height: inherit;
-    /* height: auto; */
+    height: 100%;
     margin: 3% 0% 3% 5%;
     border: 2px solid #9377f7;
 }
@@ -112,24 +103,6 @@ body, html {
     font-size: 2vw;
     margin: 3%;
 }
-
-
-/* .button {
-    text-decoration:none;
-    background:linear-gradient(#663df7, #a35dff);
-    color:white;
-    cursor:pointer;
-    font-size:20px;
-    line-height:50px;
-    text-align:center;
-    padding:15px 33px;
-    border-radius:10px;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    font-weight:bold;
-    margin-left: 35%;
-} */
 
 .btn-wrapper {
     text-align: center;
